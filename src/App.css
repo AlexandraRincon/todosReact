@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.TodoApp {
+  display: flex;
+  width: 100%;
+  height: 85vh;
+}
+
+.TodoAppIMG {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(to right top, #d16ba5, #d48ac0, #d8a7d6, #dec3e7, #e8ddf4, #e6ddf7, #e3ddfb, #dfddfe, #c2c5fe, #9faffe, #729afe, #1187fe); */
+   background-image: radial-gradient(circle, #f5f5f5, #f5f5f5, #9185cb, #5e51b3, #151e9a); 
+  /* background-image: linear-gradient(to right top, #d663a4, #d885c0, #daa3d7, #dfc0e9, #e8dcf5, #e5e4fa, #e3ebfe, #e5f1ff, #c2ebff, #93e7fe, #5be3ee, #10ddd0); */
+  /* background-image: linear-gradient(to right, #d663a4, #d885c0, #daa3d7, #dfc0e9, #e8dcf5, #e5e4fa, #e3ebfe, #e5f1ff, #c2ebff, #93e7fe, #5be3ee, #10ddd0); */
+  /* background: repeating-radial-gradient(rgb(106, 89, 168), rgb(84, 68, 172) 5px, white 15px, white 30px); */
+  /* background-image: -webkit-linear-gradient(45deg, rgb(31, 33, 156) 25%, transparent 26%, transparent 75%, rgb(31, 33, 156) 75%),
+  -webkit-linear-gradient(135deg, rgb(76, 43, 168) 25%, rgb(250, 246, 246) 26%, rgb(153, 130, 206) 75%, rgb(76, 43, 168) 75%); */
+  /* background-image: url('./Imagenes/logoo\ .png'); */
+}
+
+.TodoAppIMG img {
+  width: 50%;
+ 
+}
+
+.TodoAppContent {
+  width: 50%;
+  overflow: auto;
+  border: solid 3px #5935bb;
+  
+
 }
